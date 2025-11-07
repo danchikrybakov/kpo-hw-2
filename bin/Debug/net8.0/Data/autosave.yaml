@@ -1,0 +1,41 @@
+accounts:
+  - id: 1
+    name: Основной
+    balance: 1000
+  - id: 2
+    name: Накопительный
+    balance: 5000
+
+categories:
+  - id: 1
+    type: income
+    name: Зарплата
+  - id: 2
+    type: expense
+    name: Продукты
+  - id: 3
+    type: expense
+    name: Техника
+
+operations:
+  - id: 1
+    type: income
+    bank_account_id: 1
+    category_id: 1
+    amount: 120000
+    date: 2025-11-01
+    description: Зарплата ноябрь
+  - id: 2
+    type: expense
+    bank_account_id: 1
+    category_id: 2
+    amount: 350.75
+    date: 2025-11-02
+    description: Пятёрочка
+  - id: 3
+    type: expense
+    bank_account_id: 2
+    category_id: 3
+    amount: 1000
+    date: 2025-10-15
+    description: Наушники

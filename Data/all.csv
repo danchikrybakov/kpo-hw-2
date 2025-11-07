@@ -1,0 +1,15 @@
+#%table:accounts;;;;;;
+id;name;balance
+1;Основной;1000
+2;Накопительный;5000
+
+#%table:categories;;;;;;
+id;type;name
+1;income;Зарплата
+2;expense;Кафе
+
+#%table:operations;;;;;;
+id;type;bank_account_id;category_id;amount;date;description
+1;income;1;1;120000;01.11.2025;Оклад
+2;expense;1;2;350.75;02.11.2025;"Latte, double"
+3;expense;2;2;1000;03.11.2025;"Кофе с десертом"

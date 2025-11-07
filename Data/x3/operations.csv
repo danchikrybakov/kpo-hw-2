@@ -1,0 +1,4 @@
+id,type,bank_account_id,category_id,amount,date,description
+1,income,1,1,120000.00,2025-11-01,Зарплата ноябрь
+2,expense,1,2,350.75,2025-11-02,Пятёрочка
+3,expense,2,3,1000.00,2025-10-15,Наушники

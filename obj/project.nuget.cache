@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "DgVxvdEsKhc=",
+  "success": true,
+  "projectFilePath": "/Users/daniilrybakov/studying/домашки/кпо/ДЗ-2/Solve/FinanceTracker/FinanceTracker.csproj",
+  "expectedPackageFiles": [
+    "/Users/daniilrybakov/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.10/microsoft.extensions.dependencyinjection.9.0.10.nupkg.sha512",
+    "/Users/daniilrybakov/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.10/microsoft.extensions.dependencyinjection.abstractions.9.0.10.nupkg.sha512",
+    "/Users/daniilrybakov/.nuget/packages/spectre.console/0.53.0/spectre.console.0.53.0.nupkg.sha512",
+    "/Users/daniilrybakov/.nuget/packages/system.commandline/2.0.0-beta5.25277.114/system.commandline.2.0.0-beta5.25277.114.nupkg.sha512",
+    "/Users/daniilrybakov/.nuget/packages/yamldotnet/16.3.0/yamldotnet.16.3.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "FinanceTracker depends on System.CommandLine (>= 2.0.0-beta4.23430.1) but System.CommandLine 2.0.0-beta4.23430.1 was not found. System.CommandLine 2.0.0-beta5.25277.114 was resolved instead.",
+      "libraryId": "System.CommandLine",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
